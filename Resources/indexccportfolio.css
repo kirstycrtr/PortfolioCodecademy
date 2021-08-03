@@ -1,5 +1,5 @@
 body {
-  font-family: 'Courier New', Courier, monospace, 'Arial Narrow', Arial, sans-serif, sans-serif;
+  font-family: Arial, sans-serif, sans-serif;
 
 }
 
@@ -30,7 +30,8 @@ a {
 
 .jumbotron {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
+  justify-content: center;
   background-image: url("./Resources/Imagesccportfolio/jumbotronimage2.jpeg");
   background-size: cover;
   color: #ffffff;
@@ -41,12 +42,12 @@ a {
   font-size: 60px;
   font-weight: 700;
   margin: 0;
-  color: #fff;
+  color: black;
 }
 
 .jumbotron h3 {
   margin: 0 0 20px;
-  color: #fff;
+  color: black;
 }
 
 section .row img {
